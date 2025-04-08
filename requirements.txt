@@ -1,0 +1,1 @@
+craft_ai_sdk == 0.59
