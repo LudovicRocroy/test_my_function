@@ -5,12 +5,13 @@ This repository provides an example of how to deploy a Python function to the [C
 ## 📁 Project Structure
 
 - `src/`: Contains the Python function to deploy.
-- `.env_template`: Template for the environment configuration file.
 - `push_and_deploy_my_function.py`: Script used to deploy the function as a pipeline and endpoint.
+- `.env_template`: Template for the environment configuration file.
+- `.requirements.txt`: Contains Python libraries to be included to run Python function.
 
 ## 🔧 Setup Instructions
-O. **Prepare environment variables**:
-Install CraftAI sdk with for exemple : 
+0. **Preparation**:
+   - Install CraftAI sdk with for exemple : 
      ```bash
      pip install craft-ai-sdk
      ```
